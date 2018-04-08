@@ -1,37 +1,38 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>A-Team</title>
-  <meta name="author" content="name">
-  <meta name="description" content="description here">
-  <meta name="keywords" content="keywords,here">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
+    <title>Choice & Chance</title>
   <link rel="stylesheet" href="myStyle.css" type="text/css">
   </head>
   <body>
     <div class="container">
-      <div class="title">
-        <h3>Let's Play!</h3><br>
-        <h5>Rock - Paper - Scissors - Lizard - Spock</h5><br>
-      </div>
-      <div class="buttonHolder">
-        <button id="button" onclick="myFunction()">
-          <h2 id="bTitle">Play</h2>
-          <h5 id="bHidden"></h5>
-        </button>
-      </div>
-      <div class="highScores">
-        <h2>Hall of </h2><span class="tiny">tiny</span><h2> Fame</h2>
-        <table>
-          <tr>
-            <th>Rank</th>
-            <th>Name</th>
-            <th>Score</th>
-            <th>Best card</th>
-          </tr>
-        </table>
-      </div>
+        <div class="header">
+            <h1>Let's Play!</h1>
+            <h2>Rock - Paper - Scissors - Lizard - Spock</h2>
+        </div>
+        <div class="interaction">
+            <button id="button" onclick="myFunction()">
+                <p id="bTitle">Play</p>
+                <p id="bHidden"></p>
+            </button>
+        </div>
+        <div class="score">
+            <h2>Score</h2><br>
+            <table>
+                <tr>
+                    <th>Player 1 10</th>
+                    <th>Computer 88</th>
+                </tr>
+            </table>
+        </div>
+        <div class="highScore">
+            <h2>High Score</h2>
+            <table></table>
+        </div>
+        <div class="footer"></div>
+
+
     </div>
     <script src="javascript.js"></script>
   </body>

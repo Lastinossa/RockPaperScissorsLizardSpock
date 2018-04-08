@@ -126,23 +126,23 @@
         function colorFunction(result){
 
           switch(result){
-              case 0: {
-                document.getElementById("button").classList.add("buttonVictory");
-                document.getElementById("bTitle").innerHTML= "Victory";
-                document.getElementById("bHidden").id = "bResult";
-              break;
-          }
-              case 1: {
-                document.getElementById("button").classList.add("buttonDefeat");
-                document.getElementById("bTitle").innerHTML= "Defeat";
-                document.getElementById("bHidden").id = "bResult";
+            case 0: {
+            document.getElementById("button").classList.add("buttonVictory");
+            document.getElementById("bTitle").innerHTML= "Victory";
+            document.getElementById("bHidden").id = "bResult";
             break;
           }
-              case 2: {
-              document.getElementById("button").classList.add("buttonDraw");
-              document.getElementById("bTitle").innerHTML= "Draw";
-              document.getElementById("bHidden").id = "bResult";  
-              document.getElementById("bResult").innerHTML = "Creative as a computer";
+            case 1: {
+            document.getElementById("button").classList.add("buttonDefeat");
+            document.getElementById("bTitle").innerHTML= "Defeat";
+            document.getElementById("bHidden").id = "bResult";
+            break;
+          }
+            case 2: {
+            document.getElementById("button").classList.add("buttonDraw");
+            document.getElementById("bTitle").innerHTML= "Draw";
+            document.getElementById("bHidden").id = "bResult";  
+            document.getElementById("bResult").innerHTML = "Creative as a computer";
             break;
           }
         }

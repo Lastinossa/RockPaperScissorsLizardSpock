@@ -3,46 +3,43 @@
     width: 80%;
     height: auto;
     text-align: center;
-    margin: 0.5em auto;
+    margin: 0 auto;
     border-radius: 2px;
-    padding: 40px;
 }
-.title{
+.header{
     margin-bottom: 0px;
 }
-.title h3{
+.header h1{
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: 13vw;
     color: royalblue;
-    margin: 20px;
+    margin: 10px;
 }
-.title h5{
+.header h2{
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-weight: 200;
     font-size: 3vw;
-    color: #e5c100;
+    color: #B8860B;
     margin: 10px;
+    padding-bottom: 1em;
+}
+.interaction{
+    width: auto;
+    height: 12em;
 }
 
     /*Button*/
-.buttonHolder{
-    height: 12em;
-    width: auto;
-    margin: 0 auto;
-    border-bottom: 1px solid goldenrod;
-}
 
 button {
-    padding: 1.5em;
+    padding: 1em;
     margin: 3em;
     width: 15em;
     height: 7em;
     border: none;
-    background-color:goldenrod;
+    background-color:#B8860B;
     transition: width 0.6s, height 0.6s, background-color 0.6s, margin 0.6s;
-
 }
 .buttonVictory{
     width: 25em;
@@ -50,16 +47,16 @@ button {
     margin: 2em;
     background-color: #5eb000;
     color: #fff;
-    padding-top: 2.3em;
+    padding-top: 1.7em;
 }
 
 .buttonDraw{
     width: 25em;
     height: 12em;
     margin: 2em;
-    background-color: #FFDB19;
+    background-color: #B8860B;
     color: #fff;
-    padding-top: 2.3em;
+    padding-top: 1.7em;
 }
 
 .buttonDefeat{
@@ -68,10 +65,11 @@ button {
     margin: 2em;
     background-color: #bd2e22;
     color: #fff;
-    padding-top: 2.5em;
+    padding-top: 1.7em;
 }
 #bTitle{
     margin: 0;
+    padding: 0;
     font-family: Helvetica, Arial, Sans-Serif;
     color: #fff;
     font-size: 4em;
@@ -92,22 +90,41 @@ button {
     margin-top: 10px;
 
 }
-.highScores{
+.score{
     margin: 1.5em 0;
     padding: 1em;
 }
-.highScores h2{
+.score h2{
     font-family: Helvetica, Arial, Sans-serif;
     font-weight: 500;
     font-size: 3em;
     color: royalblue;
     display: inline;
+}
+.score table{
+    border: 1px solid darkgreen;
+    width: 100%;
+    margin: 0 auto;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: 250;
+    font-size: 1.5em;
 
+}
+.highScore{
+    margin: 1.5em 0;
+    padding: 1em;
+}
+.highScore h2{
+    font-family: Helvetica, Arial, Sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    color: royalblue;
+    display: inline;
 }
 .highScores .tiny {
     font-weight: 500;
     font-family: Helvetica, Arial, Sans-serif;
     font-size: 2.5em;
-    color: #e5c100;
+    color: #B8860B;
     display: inline;
 }
