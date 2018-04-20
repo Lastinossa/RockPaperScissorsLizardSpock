@@ -1,43 +1,46 @@
 
 .container{
-    width: 80%;
+    width: 100%;
     height: auto;
     text-align: center;
     margin: 0 auto;
-    border-radius: 2px;
 }
-.header{
-    margin-bottom: 0px;
+.interaction{
+    width: auto;
+    height: 100vh;
+    padding: 7vh;
+    background-color: #C6E2FF;
 }
-.header h1{
+
+.interaction h1{
     text-align: center;
     font-family: Helvetica, sans-serif;
     font-size: 13vw;
     color: royalblue;
     margin: 10px;
 }
-.header h2{
+.interaction h2{
     text-align: center;
     font-family: Helvetica, sans-serif;
-    font-weight: 200;
-    font-size: 3vw;
+    font-weight: 100;
+    font-size: 4vw;
     color: #B8860B;
-    margin: 10px;
-    padding-bottom: 1em;
 }
-.interaction{
-    width: auto;
-    height: 12em;
-}
-
-    /*Button*/
+  /*Button*/
 
 button {
+<<<<<<< HEAD
     margin-top: 5%;
     min-width: 70px;
     width: 12%;
     height: 30%;
     padding-top: 1vh;
+=======
+    width: auto;
+    height: auto;
+    margin: 2em;
+    padding: 3%;
+>>>>>>> e6d6504d95940ea29accba30d9d94322cfaa83db
     border: none;
     background-color:#B8860B;
     transition: width 0.6s, height 0.6s, background-color 0.6s, margin 0.6s;
@@ -70,10 +73,13 @@ button {
 }
 #bTitle{
     margin: 0;
-    padding: 0;
     font-family: Helvetica, Arial, Sans-Serif;
     color: #fff;
+<<<<<<< HEAD
     font-size: 1.5rem;
+=======
+    font-size: 5vw;
+>>>>>>> e6d6504d95940ea29accba30d9d94322cfaa83db
     display: block;
     transition: padding 0.5s, color 0.5s;
 }
@@ -110,6 +116,10 @@ button {
     font-weight: 250;
     font-size: 1.5em;
 
+}
+.score table p{
+    display: inline;
+    padding: 1vw;
 }
 .highScore{
     margin: 1.5em 0;
