@@ -33,10 +33,11 @@
     /*Button*/
 
 button {
-    padding: 1em;
-    margin: 3em;
-    width: 15em;
-    height: 7em;
+    margin-top: 5%;
+    min-width: 70px;
+    width: 12%;
+    height: 30%;
+    padding-top: 1vh;
     border: none;
     background-color:#B8860B;
     transition: width 0.6s, height 0.6s, background-color 0.6s, margin 0.6s;
@@ -72,7 +73,7 @@ button {
     padding: 0;
     font-family: Helvetica, Arial, Sans-Serif;
     color: #fff;
-    font-size: 4em;
+    font-size: 1.5rem;
     display: block;
     transition: padding 0.5s, color 0.5s;
 }
