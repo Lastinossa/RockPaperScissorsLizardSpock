@@ -29,10 +29,18 @@
   /*Button*/
 
 button {
+<<<<<<< HEAD
+    margin-top: 5%;
+    min-width: 70px;
+    width: 12%;
+    height: 30%;
+    padding-top: 1vh;
+=======
     width: auto;
     height: auto;
     margin: 2em;
     padding: 3%;
+>>>>>>> e6d6504d95940ea29accba30d9d94322cfaa83db
     border: none;
     background-color:#B8860B;
     transition: width 0.6s, height 0.6s, background-color 0.6s, margin 0.6s;
@@ -67,7 +75,11 @@ button {
     margin: 0;
     font-family: Helvetica, Arial, Sans-Serif;
     color: #fff;
+<<<<<<< HEAD
+    font-size: 1.5rem;
+=======
     font-size: 5vw;
+>>>>>>> e6d6504d95940ea29accba30d9d94322cfaa83db
     display: block;
     transition: padding 0.5s, color 0.5s;
 }
